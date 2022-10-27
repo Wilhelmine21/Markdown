@@ -2,8 +2,12 @@
 * 特色: 易讀易寫
 * 部分可使用html語法
 ## 目錄
-1. [基本語法](https://github.com/Wilhelmine21/Markdown#1-Markdown-基本語法)
-    1. [標題](https://github.com/Wilhelmine21/Markdown#1-Markdown-標題)
+1. [基本語法](https://github.com/Wilhelmine21/Markdown#1-Markdown-基本語法)  
+    1-1. [標題](https://github.com/Wilhelmine21/Markdown#1-1-標題)  
+    1-2. [字體效果](https://github.com/Wilhelmine21/Markdown#1-2-字體效果)  
+    1-3. [引用](https://github.com/Wilhelmine21/Markdown#1-3-引用)  
+    1-4. [標號](https://github.com/Wilhelmine21/Markdown#1-4-標號)   
+
 2. 基本語法2
 ## 1. Markdown 基本語法
 ### 1-1. 標題
@@ -50,23 +54,49 @@
     ```Markdown
     **粗體字**
     ```
-* *斜體 and 粗體字* or __斜體 and 粗體字2__
+* *斜體 and 粗體字*
     ```Markdown
-    *斜體 and 粗體字* or __斜體 and 粗體字2__
+    *斜體 and 粗體字*
     ```
 * ~~刪除線~~
     ```Markdown
     ~~刪除線~~
     ```
-* 文字^上標^ or 文字~下標~
+<!-- * 文字^上標^ or 文字~下標~
     ```Markdown
     文字^上標^ or 文字~下標~
     ```
 * ++底線++
     ```Markdown
     ++底線++
-    ```
-* ==螢光標記==
+    ``` -->
+* ==螢光標記== (**此效果github無法顯示**)
     ```Markdown 
     ==螢光標記==
     ```
+### 1-3. 引用
+    ```Markdown 
+    >第一層
+    >>第二層
+    >>>第三層
+    ```
+* 效果如下:
+    >第一層
+    >>第二層
+    >>>第三層
+### 1-4. 標號
+    ```Markdown 
+    1. 數字
+    2. 數字
+    3. 數字
+    * 其他
+    + 其他
+    - 其他
+    ```
+* 效果如下:
+    1. 數字
+    2. 數字
+    3. 數字
+    * 其他
+    + 其他
+    - 其他
