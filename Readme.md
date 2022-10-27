@@ -125,7 +125,7 @@
 
 * 圖片+連結: 
 ```Markdown 
-[![FigName](img.jpg "img")](https://github.com/Wilhelmine21/Markdown)
+[![FigName](img.png)](https://github.com/Wilhelmine21/Markdown)
 ```  
 * 效果如下:   
 [![FigName](img.png)](https://github.com/Wilhelmine21/Markdown)
