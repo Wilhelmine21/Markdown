@@ -9,8 +9,8 @@
     1-4. [標號](https://github.com/Wilhelmine21/Markdown#1-4-標號)   
     1-5. [段落](https://github.com/Wilhelmine21/Markdown#1-5-段落)  
     1-6. [換行](https://github.com/Wilhelmine21/Markdown#1-6-換行)
+    1-7. [圖片](https://github.com/Wilhelmine21/Markdown#1-7-圖片)
 
-2. 基本語法2
 ## 1. Markdown 基本語法
 ### 1-1. 標題
 * 第一種方式:
@@ -116,3 +116,16 @@
 ### 1-6. 換行
 * 行末加上兩個以上的空格
 * 行末加上`<br>`
+### 1-7. 圖片
+```Markdown 
+![FigName](img.png)
+```
+* 效果如下:  
+![FigName](img.png) 
+
+* 圖片+連結: 
+```Markdown 
+[![FigName](img.jpg "img")](https://github.com/Wilhelmine21/Markdown)
+```  
+* 效果如下:   
+[![FigName](img.jpg "img")](https://github.com/Wilhelmine21/Markdown)  
