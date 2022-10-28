@@ -8,9 +8,10 @@
     1-3. [引用](https://github.com/Wilhelmine21/Markdown#1-3-引用)  
     1-4. [標號](https://github.com/Wilhelmine21/Markdown#1-4-標號)   
     1-5. [段落](https://github.com/Wilhelmine21/Markdown#1-5-段落)  
-    1-6. [換行](https://github.com/Wilhelmine21/Markdown#1-6-換行)
-    1-7. [圖片](https://github.com/Wilhelmine21/Markdown#1-7-圖片)
-
+    1-6. [換行](https://github.com/Wilhelmine21/Markdown#1-6-換行)  
+    1-7. [圖片](https://github.com/Wilhelmine21/Markdown#1-7-圖片)  
+    1-8. [Link](https://github.com/Wilhelmine21/Markdown#1-8-Link)  
+ 
 ## 1. Markdown 基本語法
 ### 1-1. 標題
 * 第一種方式:
@@ -120,8 +121,6 @@
 * 分隔線
     * 連續三個以上的 `---` or `***` or `___`
     * 前後空一行
-
-
 ### 1-7. 圖片
 ```Markdown 
 ![FigName](img.png)
@@ -132,6 +131,29 @@
 * 圖片+連結: 
 ```Markdown 
 [![FigName](img.png)](https://github.com/Wilhelmine21/Markdown)
-```  
+```   
 * 效果如下:   
 [![FigName](img.png)](https://github.com/Wilhelmine21/Markdown)
+### 1-8. Link
+* 一般網址:
+    ```Markdown 
+    [LinkName](https://github.com/Wilhelmine21/Markdown "滑鼠停留顯示名稱")  
+    ```
+    * 效果如下:  
+    [LinkName](https://github.com/Wilhelmine21/Markdown "滑鼠停留顯示名稱")  
+* 直接顯示網址並可點選:
+    ```Markdown 
+    <https://github.com/Wilhelmine21/Markdown>
+    ```
+    * 效果如下:  
+        <https://github.com/Wilhelmine21/Markdown>
+* 引用式網址:
+    ```Markdown 
+    [Markdown說明][1]
+
+    [1]: <https://github.com/Wilhelmine21/Markdown>
+    ```
+    * 效果如下:  
+        [Markdown說明][1]  
+
+        [1]: <https://github.com/Wilhelmine21/Markdown#markdown-%E7%B0%A1%E4%BB%8B>
