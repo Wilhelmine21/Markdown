@@ -2,7 +2,7 @@
 * 特色: 易讀易寫
 * 部分可使用html語法
 ## 目錄
-1. [基本語法](https://github.com/Wilhelmine21/Markdown#1-Markdown-基本語法)  
+1. [Markdown 基本語法](https://github.com/Wilhelmine21/Markdown#1-Markdown-基本語法)  
     1-1. [標題](https://github.com/Wilhelmine21/Markdown#1-1-標題)  
     1-2. [字體效果](https://github.com/Wilhelmine21/Markdown#1-2-字體效果)  
     1-3. [引用](https://github.com/Wilhelmine21/Markdown#1-3-引用)  
@@ -11,7 +11,11 @@
     1-6. [換行](https://github.com/Wilhelmine21/Markdown#1-6-換行)  
     1-7. [圖片](https://github.com/Wilhelmine21/Markdown#1-7-圖片)  
     1-8. [Link](https://github.com/Wilhelmine21/Markdown#1-8-Link)  
- 
+    1-9. [轉義字符](https://github.com/Wilhelmine21/Markdown#1-9-轉義字符)  
+2. [Markdown 擴充語法](https://github.com/Wilhelmine21/Markdown#2-Markdown-擴充語法)    
+    2-1. [表格](https://github.com/Wilhelmine21/Markdown#2-1-表格)    
+    2-2. [程式碼](https://github.com/Wilhelmine21/Markdown#2-2-程式碼)
+
 ## 1. Markdown 基本語法
 ### 1-1. 標題
 * 第一種方式:
@@ -123,17 +127,17 @@
     * 前後空一行
 ### 1-7. 圖片
 ```Markdown 
-![FigName](img.png)
+![FigName](img.png "顯示名稱")
 ```
 * 效果如下:  
-![FigName](img.png) 
+![FigName](img.png "顯示名稱")
 
 * 圖片+連結: 
 ```Markdown 
-[![FigName](img.png)](https://github.com/Wilhelmine21/Markdown)
+[![FigName](img.png "顯示名稱")](https://github.com/Wilhelmine21/Markdown)
 ```   
 * 效果如下:   
-[![FigName](img.png)](https://github.com/Wilhelmine21/Markdown)
+[![FigName](img.png "顯示名稱")](https://github.com/Wilhelmine21/Markdown)
 ### 1-8. Link
 * 一般網址:
     ```Markdown 
@@ -157,3 +161,60 @@
         [Markdown說明][1]  
 
         [1]: <https://github.com/Wilhelmine21/Markdown#markdown-%E7%B0%A1%E4%BB%8B>
+### 1-9. 轉義字符
+|Character|	Name|
+|:--:|:--:|
+|\ |backslash|
+|`	|backtick (see also escaping backticks in code)
+|*	|asterisk|
+|_	|underscore|
+|{ } |curly braces|
+|[ ]	|brackets|
+|( )	|parentheses|
+|#	|pound sign|
+|+	|plus sign|
+|-	|minus sign (hyphen)|
+|.	|dot|
+|!	|exclamation mark|
+|\|	|pipe (see also escaping pipe in tables)|
+## 2. Markdown 擴充語法
+### 2-1. 表格
+```Markdown 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+```
+* 效果如下:  
+
+    | Syntax      | Description |  
+    | ----------- | ----------- |  
+    | Header      | Title       |  
+    | Paragraph   | Text        |  
+
+* 內容對齊  
+    ```Markdown 
+    | 對齊 | 對齊 | 對齊 |
+    | :-- | :--: | --: | 
+    | 靠左 | 置中 | 靠左 |
+    ```
+    * 效果如下:  
+
+        | 對齊 | 對齊 | 對齊 |
+        | :-- | :--: | --: | 
+        | 靠左 | 置中 | 靠左 |
+
+* Html的`&#124;`來代替Markdown的`|`
+### 2-2. 程式碼
+* 使用\`\`\`將程式包起來，並將語言標註在第一個\`\`\`後
+```
+    ```python 
+    for i in range(100):
+        print(i)
+    ```
+```
+* 效果如下:
+    ```python 
+    for i in range(100):
+        print(i)
+    ```
