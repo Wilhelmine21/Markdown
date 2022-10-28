@@ -180,17 +180,17 @@
 ## 2. Markdown 擴充語法
 ### 2-1. 表格
 ```Markdown 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+    | 名稱 | 說明 |  
+    | --- | --- |  
+    | High | 高 |  
+    | Low | 低 |  
 ```
 * 效果如下:  
 
-    | Syntax      | Description |  
-    | ----------- | ----------- |  
-    | Header      | Title       |  
-    | Paragraph   | Text        |  
+    | 名稱 | 說明 |  
+    | --- | --- |  
+    | High | 高 |  
+    | Low | 低 |  
 
 * 內容對齊  
     ```Markdown 
